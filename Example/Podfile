@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SSPatternLock_Example' do
+  pod 'SSPatternLock', :path => '../'
+
+  target 'SSPatternLock_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
