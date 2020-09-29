@@ -7,31 +7,23 @@
 #
 
 Pod::Spec.new do |s|
+  s.platform         = :ios
   s.name             = 'SSPatternLock'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SSPatternLock.'
+  s.summary          = 'Easy to use and configurable patternlock view for ios'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
-  s.homepage         = 'https://github.com/mustafasavassalihoglu@gmail.com/SSPatternLock'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/savassalihoglu/SSPatternLock'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'mustafasavassalihoglu@gmail.com' => 'mustafasavassalihoglu@gmail.com' }
-  s.source           = { :git => 'https://github.com/mustafasavassalihoglu@gmail.com/SSPatternLock.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Savaş Salihoğlu' => 'mustafasavassalihoglu@gmail.com' }
+  s.source           = { :git => 'https://github.com/savassalihoglu/SSPatternLock', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '14.0'
 
-  s.source_files = 'SSPatternLock/Classes/**/*'
+  s.source_files = 'SSPatternLock/Source/**/*'
   
+  s.swift_version = "5.3"
   # s.resource_bundles = {
   #   'SSPatternLock' => ['SSPatternLock/Assets/*.png']
   # }

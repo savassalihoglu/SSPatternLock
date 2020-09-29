@@ -1,0 +1,16 @@
+PODS:
+  - SSPatternLock (0.1.0)
+
+DEPENDENCIES:
+  - SSPatternLock (from `../`)
+
+EXTERNAL SOURCES:
+  SSPatternLock:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSPatternLock: d344b5aa2fc5e00c5a61f4fb9914444ae97e115a
+
+PODFILE CHECKSUM: 73bf0ab68e9378f278a9c04400ba3f5f76035873
+
+COCOAPODS: 1.8.4

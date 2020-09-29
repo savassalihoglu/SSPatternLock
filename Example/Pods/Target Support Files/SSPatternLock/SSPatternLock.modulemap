@@ -1,0 +1,6 @@
+framework module SSPatternLock {
+  umbrella header "SSPatternLock-umbrella.h"
+
+  export *
+  module * { export * }
+}

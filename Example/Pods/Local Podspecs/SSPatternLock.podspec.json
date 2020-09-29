@@ -1,0 +1,22 @@
+{
+  "name": "SSPatternLock",
+  "version": "0.1.0",
+  "summary": "A short description of SSPatternLock.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mustafasavassalihoglu@gmail.com/SSPatternLock",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mustafasavassalihoglu@gmail.com": "mustafasavassalihoglu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mustafasavassalihoglu@gmail.com/SSPatternLock.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SSPatternLock/Classes/**/*"
+}
