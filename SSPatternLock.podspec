@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/savassalihoglu/SSPatternLock.git',  :tag => "#{s.version}" }
 
 
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "12.0"
   s.source_files = 'Source/**/*.swift'
   
   s.swift_version = "5.3"

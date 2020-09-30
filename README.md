@@ -18,7 +18,7 @@ it, simply add the following line to your Podfile:
 pod 'SSPatternLock'
 ```
 
-You can also clone the repo and copy from swift files, which in SSPatternLock directory to your project
+You can also clone the repo and copy from swift files, which in Source directory to your project
 
 # Usage
 
