@@ -14,16 +14,15 @@ Pod::Spec.new do |s|
 
 
 
-  s.homepage         = 'https://github.com/savassalihoglu/SSPatternLock'
+  s.homepage         = 'https://github.com/savassalihoglu/SSPatternLock.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Savaş Salihoğlu' => 'mustafasavassalihoglu@gmail.com' }
-  s.source           = { :git => 'https://github.com/savassalihoglu/SSPatternLock', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/savassalihoglu/SSPatternLock.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '14.0'
 
-  s.source_files = 'SSPatternLock/Source/**/*'
+  s.ios.deployment_target = "9.0"
+  s.source_files = 'Source/**/*.swift'
   
-  s.swift_version = "5.3"
   # s.resource_bundles = {
   #   'SSPatternLock' => ['SSPatternLock/Assets/*.png']
   # }
