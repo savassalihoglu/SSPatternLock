@@ -1,8 +1,4 @@
 # SSPatternLock
-[![CI Status](https://img.shields.io/travis/mustafasavassalihoglu@gmail.com/SSPatternLock.svg?style=flat)](https://travis-ci.org/mustafasavassalihoglu@gmail.com/SSPatternLock)
-[![Version](https://img.shields.io/cocoapods/v/SSPatternLock.svg?style=flat)](https://cocoapods.org/pods/SSPatternLock)
-[![License](https://img.shields.io/cocoapods/l/SSPatternLock.svg?style=flat)](https://cocoapods.org/pods/SSPatternLock)
-[![Platform](https://img.shields.io/cocoapods/p/SSPatternLock.svg?style=flat)](https://cocoapods.org/pods/SSPatternLock)
 
 Easy to use and configurable patternlock view for ios
 
